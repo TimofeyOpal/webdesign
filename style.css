@@ -1,0 +1,49 @@
+@font-face {
+
+    font-family: TrueType; /* Имя шрифта */
+
+    src: url(11528.ttf); /* Путь к файлу со шрифтом */
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    display:flex ;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header {
+
+    padding: 22px 0;
+    background: #f1f5f8;
+}
+.header-contayner {
+    margin: 0 auto;
+    display: flex;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.main-menu {
+    display: flex;
+}
+.main-menu a{
+    color: black;
+    font-size: 16px;
+    padding: 27px 6px;
+    margin-right: 63px;
+}
+#menu-checkbox{
+    display: none;
+}
+.header-contayner a:hover {
+    background: #e4df28;
+}
+nav {
+    margin-top:20px ;
+}

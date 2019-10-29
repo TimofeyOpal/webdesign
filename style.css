@@ -76,12 +76,38 @@ nav {
     color: #fff0dc;
     line-height: 37px;
 }
+.top-two h3{
+    font-size: 32px;
+    color: #424147;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.top-two h5 {
+    font-size: 25px;
+    color: #424147;
+    text-align: center;
+    margin-top: 20px;
+}
+.first-p{
+    color: #ffffe6;
+    font-size: 26px;
+    padding: 16px;
 
+}
+.bottom-card{
+    background: #424147;
+}
+.specialize-card {
+    display: flex;
+    cursor: pointer;
+    margin: 50px;
 
-
-
-
-
+}
+.us-row {
+    display: flex;
+    justify-content: center;
+}
 
 
 

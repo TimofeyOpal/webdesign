@@ -156,10 +156,30 @@ nav {
     width: 80%;
     grid-template-columns: auto auto auto auto;
     margin: 0 auto;
-    height: 400px;
+    height: auto;
+    padding: 20px;
 }
+.slide-block {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.slide-block h3 {
+    padding: 15px 15px;
+    background: #32302e;
+    color: #e4df28;
+    text-transform: uppercase;
+    margin: 20px;
+    display: inline-block;
+}
+.slide-block p{
+    color: #32302e;
+    font-size: 20px;
+}
+.owl-carousel {
+    padding: 30px 0;
 
-
+}
 
 
 
@@ -226,10 +246,10 @@ nav {
         text-transform: uppercase;
         background: #7b7977;
         display: inline;
-        font-size: 23px;
+        font-size: 17px;
         padding: 4px 0px;
         color: #fff0dc;
-        line-height: 35px;
+        line-height: 29px;
     }
     .us-row {
          display: flex;

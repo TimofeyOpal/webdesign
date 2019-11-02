@@ -28,6 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
 
+
 }
 .main-menu {
     display: flex;
@@ -108,8 +109,55 @@ nav {
     display: flex;
     justify-content: center;
 }
-
-
+.jquery-block {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.jquery-block h3 {
+    padding: 15px 15px;
+    background: #32302e;
+    color: #e4df28;
+    text-transform: uppercase;
+    margin: 20px;
+    display: inline-block;
+}
+.jquery-block p{
+    color: #32302e;
+    font-size: 20px;
+}
+.toggles button {
+    text-align: center;
+    color: #32302e;
+    border: none;
+    margin: 20px;
+    background: #ffffe6;
+    font-size: 22px;
+    cursor: pointer;
+}
+.toggles button:after{
+    content: '   / ';
+}
+.toggles button:last-child:after{
+    content: none;
+}
+/*.post {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;   Не очень хороший вариант, но работает
+}
+.post:last-child{
+    width: 70%;
+}*/
+.post {
+    display: grid;
+    width: 80%;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
+    height: 400px;
+}
 
 
 
@@ -168,6 +216,55 @@ nav {
         top: 30px;
         right: 115px;
     }
+    .top-slide h2{
+        background: #e4df28;
+        font-size: 36px;
+        display: inline;
+        padding: 0 13px;
+    }
+    .top-contayner h4{
+        text-transform: uppercase;
+        background: #7b7977;
+        display: inline;
+        font-size: 23px;
+        padding: 4px 0px;
+        color: #fff0dc;
+        line-height: 35px;
+    }
+    .us-row {
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top-contayner {
+        width: 85%;
+        margin: 0 auto;
+        padding-top: 120px;
+        padding-bottom: 74px;
+    }
+    .top-two h3 {
+        font-size: 25px;
+        color: #424147;
+        text-align: center;
+        margin-top: 50px;
+        text-transform: uppercase;
+    }
+    .top-two h5 {
+        font-size: 21px;
+        color: #424147;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .post {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .post img {
+        max-width: 310px;
+    }
+
 
 }
 

@@ -23,4 +23,5 @@ if ($(window).width() < 420){
         items:3,
         loop:true
     });
-}
+};
+

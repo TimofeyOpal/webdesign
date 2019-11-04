@@ -178,7 +178,103 @@ nav {
 }
 .owl-carousel {
     padding: 30px 0;
+}
+footer {
 
+    background:#414146 ;
+
+}
+.footerus {
+    display: grid;
+    grid-template-columns:1fr auto 1fr;
+    width: 80%;
+    margin: 0 auto;
+}
+.block-footer {
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-about h4{
+    padding: 20px 0;
+    color: #ffffe5;
+    font-size: 27px;
+}
+.footer-about p{
+    margin-top:10px;
+    color: #ffffe6;
+    font-size: 17px;
+}
+.footer-about a{
+    line-height: 100px;
+    padding: 5px 10px;
+    background: #000000;
+    color: #ffffe6;
+    font-size: 1.3em;
+    border-bottom: 2px solid #e4df28;
+}
+.photo-stream h4 {
+    color: #ffffe6;
+    font-size: 27px;
+    margin: 15px 0;
+}
+.photo-steam-block {
+    margin: 25px 0;
+    width: 30px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+}
+.block-footer-two h4{
+    padding: 20px 0;
+    color: #ffffe5;
+    font-size: 27px;
+}
+.block-footer-two ul{
+    margin-top:10px;
+}
+.block-footer-two p {
+    margin-left: 10px;
+    color: #ffffe6;
+}
+.block-footer-two span {
+    color: #e4df28;
+}
+.block-footer-two li {
+    margin-top: 40px;
+}
+.content-url {
+    display: flex;
+    align-items: center;
+    margin-top:60px ;
+}
+.content-url a {
+    margin-left: 2px;
+}
+.block-footer-three-one h4{
+    padding: 20px 0;
+    color: #ffffe5;
+    font-size: 27px;
+    margin-left: 10px;
+}
+.block-footer-three-one li{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.block-footer-three-one a,p{
+    margin-left: 3px;
+    color: #ffffe6;
+    margin-top: 5px;
+}
+.block-footer-three-one span{
+    color: #e4df28;
+}
+.block-footer-three h5{
+    padding: 20px 0;
+    color: #ffffe5;
+    font-size: 27px;
+    margin-left: 10px;
 }
 
 
@@ -186,9 +282,7 @@ nav {
 
 
 
-
-
-@media screen and (max-width:420px) {
+@media screen and (max-width:450px) {
     .header-contyner {
         width: 100%;
         display: flex;
@@ -282,9 +376,20 @@ nav {
         margin: 0 auto;
     }
     .post img {
-        max-width: 310px;
+        max-width: 250px;
     }
-
+    .footerus {
+        display: block;
+    }
+    .photo-steam-block img{
+        width: 70px;
+    }
+    .content-url {
+        display: block;
+    }
+    .jquery-block {
+        width: 75%;
+    }
 
 }
 
